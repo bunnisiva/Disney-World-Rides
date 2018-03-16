@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 22 11:04:18 2017
-
-@author: Sachal
-"""
-
 import csv, requests, bs4, sqlite3, re, datetime, schedule, time
 
 db = sqlite3.connect('DisneyWorld_Rides.db')
